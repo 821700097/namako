@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+<!--&lt;!&ndash;    <bean id="userDao" class="org.example.dao.Impl.UserDaoImpl"></bean>&ndash;&gt;-->
+<!--    <bean id="userService" class="org.example.service.Impl.UserServiceImpl" autowire="byType">-->
+<!--    </bean>-->
+<!--&lt;!&ndash;    <bean id="myBeanPostProcessor" class="org.example.beanpostprocessor.MyBeanPostProcessor" ></bean>&ndash;&gt;-->
+<!--&lt;!&ndash;    <bean id="myBeanFactoryPostProcessor" class="org.example.beanFactoryPostProcessor.MyBeanFactoryPostProcessor"></bean>&ndash;&gt;-->
+<!--    <bean id="myBeanFactoryRegisty" class="org.example.beanFactoryPostProcessor.MyBeanFactoryRegisty"></bean>-->
+
+
+    <context:component-scan base-package="org.example"></context:component-scan>
+</beans>
